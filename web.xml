@@ -1,0 +1,13 @@
+<!--Start-->
+<web-app>
+    <!--Write a Servlet to display parameters available on request.-->
+    <servlet>
+        <servlet-name>interestcalculation</servlet-name>
+        <servlet-class>interestcalculation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>interestcalculation</servlet-name>
+        <url-pattern>/interestcalculation</url-pattern>
+    </servlet-mapping>
+</web-app>
+<!--End-->
